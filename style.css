@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+body {
+    background-image: url(http://www.dreamville.com/wp-content/uploads/2020/01/IMG_2262-506x506.jpg) ;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.cursive{
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 0.4rem;
+}
+
+#title{
+    font-size: 3rem;;
+}
+
+#description{
+    font-size: 1.5rem;
+}
+
+
+#main {
+    background-color: rgba(46, 41, 41, 0.781);
+    color: white;
+    width: 55%;
+    margin: 0 auto;
+    padding-left: 5%;
+}
+
+#header {
+    text-align: center;
+}
+
+#survey {
+    margin: 0 auto;
+}
+
+.pill-input {
+    border-radius: 25px;
+    height: 2rem;
+    width: 90%;
+    display: block;
+    margin: 1rem;
+}
+
+label{
+    font-size: 1.2rem;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  p{
+    font-size: 1.2rem;
+  }
+
+  textarea{
+    width: 75%;
+    height: 10rem;
+  }
+
+  button{
+    border-radius: 20px;
+    height: 3rem;
+    width: 9rem;
+    margin: auto;
+    background-color: rgba(136, 128, 132, 0.739);
+    color: white;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5rem;
+  }
+
+  @media only screen and (max-width: 800px){
+      
+#main {
+   
+    width: 100%;
+    margin: 0 auto; 
+}
+
+textarea{
+    width: 90%;
+    height: 10rem;
+  }
+
+  }

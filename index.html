@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div id="main">
+        <div id="header">
+            <h1 id="title"><span class="cursive">Dreamville</span> Survey Form</h1>
+            <p id="description">A survey form created for Dreamville</p>
+        </div>
+        <div id="survey">
+            <form id="survey-form">
+                <div>
+                    <label id="name-label" for="name">Name</label>
+                    <input class="pill-input" required type="text" id="name" placeholder="John Doe">
+                </div>
+                <div>
+                    <label id="email-label" for="email">Email</label>
+                    <input class="pill-input" required type="email" id="email" placeholder="example@example.com"> </div>
+                <div>
+                    <label id="number-label" for="number">How many J.cole albums do you like?</label>
+                    <input class="pill-input" type="number" name="number" id="number" min="0" max="100"
+                        placeholder="1-100">
+                </div>
+                <div>
+                    <label id="dropdown-label" for="dropdown">How long have you been rocking with Cole?</label>
+                    <select class="pill-input" name="dropdown" id="dropdown">
+                        <option value="">I dont like Cole</option>
+                        <option value="1">a few months</option>
+                        <option value="2">A year or two</option>
+                        <option value="3">3 to four years</option>
+                        <option value="4">I'm a day one fan</option>
+                    </select>
+                </div>
+                <div>
+                    <p>What is your gender</p>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+                <div>
+                    <p>What Dreamville artist do you like? </p>
+                    <input type="checkbox" id="dv1" name="dv1" value="J.Cole
+                    <label for=" dv1"> J.Cole</label>
+                    <br>
+                    <input type="checkbox" id="bas" name="Bas" value="Bas">
+                    <label for="Bas"> Bas</label>
+                    <br>
+                    <input type="checkbox" id="cozz" name="Cozz" value="Boat">
+                    <label for="Cozz"> Cozz</label>
+                    <br>
+                    <input type="checkbox" id="Ari" name="Ari" value="Boat">
+                    <label for="Ari"> Ari</label>
+                    <br>
+                    <input type="checkbox" id="Omen" name="Omen" value="Boat">
+                    <label for="Omen"> Omen</label>
+                    <br>
+                    <input type="checkbox" id="J.I.D" name="J.I.D" value="Boat">
+                    <label for="J.I.D"> J.I.D</label>
+                    <br>
+                    <input type="checkbox" id="Lute" name="Lute" value="Boat">
+                    <label for="Lute"> Lute</label>
+                    <br>
+                    <input type="checkbox" id="EarthGang" name="EarthGang" value="Boat">
+                    <label for="EarthGang">EarthGang</label>
+                    <br>
+                </div>
+                <div>
+
+                    <p>Comments</p>
+                    <textarea placeholder="your text here" id="textarea"></textarea>
+                </div>
+
+                <button id="submit" type="submit">Submit</button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
